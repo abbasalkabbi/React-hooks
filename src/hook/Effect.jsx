@@ -19,7 +19,7 @@ export default function Effect() {
     },[input])
     
     return (
-        <div className='container text-center'>
+        <div className='container bg-dark text-center'>
             <h1>Use Effect </h1>
             <div className=" bg-secondary input-group mb-3">
                 <span className=" bg-dark-subtl input-group-text" id="inputGroup-sizing-default">search</span>

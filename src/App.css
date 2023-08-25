@@ -1,10 +1,21 @@
 .App{
-    width: 100vw;
-    height: 100vh;
+    height: fit-content;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
 }
 h1,h2,h3{
     color: #fff;
 }
 .card{
     width: 100%;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.ref {
+    height: fit-content;
+}
+.ref div{
+    width: 100%;
+    height: 500px;
 }
