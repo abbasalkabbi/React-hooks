@@ -1,6 +1,7 @@
 
 import './App.css'
 import Effect from './hook/Effect'
+import Memo from './hook/Memo'
 import Ref from './hook/Ref'
 import State from './hook/state'
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <State/>
     <Effect/>
     <Ref/>
+    <Memo/>
     </div>
   )
 }
