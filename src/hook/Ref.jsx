@@ -11,9 +11,9 @@ export default function Ref() {
         })
     }
     const GoToTop=()=>{
-        first.current.scrollIntoView({
-            'behavior':'smooth'
-        })
+        first.current.scrollIntoView(
+            { behavior: "smooth", block: "end", inline: "nearest" }
+)
     }
     return (
         <div className="ref container text-center">
