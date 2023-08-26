@@ -1,5 +1,6 @@
 
 import './App.css'
+import Callback from './hook/CallBack/Callback'
 import Effect from './hook/Effect'
 import Memo from './hook/Memo'
 import Ref from './hook/Ref'
@@ -11,6 +12,7 @@ function App() {
     <Effect/>
     <Ref/>
     <Memo/>
+    <Callback/>
     </div>
   )
 }
